@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "doc": "Id of the order filed",
+      "name": "order_id",
+      "type": "string"
+    },
+    {
+      "doc": "Id of the customer",
+      "name": "customer_id",
+      "type": "string"
+    },
+    {
+      "doc": "Id of the supplier",
+      "name": "supplier_id",
+      "type": "string"
+    },
+    {
+      "doc": "First Name of Customer",
+      "name": "first_name",
+      "type": "string"
+    },
+    {
+      "doc": "Last Name of Customer",
+      "name": "last_name",
+      "type": "string"
+    },
+    {
+      "doc": "Totla number of items in the order",
+      "name": "items",
+      "type": "int"
+    },
+    {
+      "doc": "Total price of the order",
+      "name": "price",
+      "type": "float"
+    },
+    {
+      "doc": "Weight of the items",
+      "name": "weight",
+      "type": "float"
+    },
+    {
+      "default": true,
+      "doc": "Field indicating if the user is enrolled in marketing emails",
+      "name": "automated_email",
+      "type": "boolean"
+    }
+  ],
+  "name": "Order",
+  "namespace": "com.sunilvb.demo",
+  "type": "record",
+  "version": "1"
+}
